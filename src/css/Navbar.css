@@ -2,9 +2,8 @@
 
 .navbar {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	padding: 5px 15px;
-	/* justify-content: flex-end !important; */
 	background-color: #01ab97;
 	color: white;
 }
@@ -17,5 +16,5 @@
 
 .navbar h1 {
 	font-family: "Roboto Slab", serif;
-	margin: 10px 8px;
+	margin: 10px 20px;
 }
