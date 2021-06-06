@@ -18,7 +18,7 @@ const Chat = ({ currData }) => {
 	const [image, setImage] = useState("");
 	const [allEnt, setAllEnt] = useState(getData());
 
-	//set data
+	//set User
 	useEffect(() => {
 		localStorage.setItem("UserChatsHistory", JSON.stringify(allEnt));
 	}, [allEnt]);
@@ -26,7 +26,7 @@ const Chat = ({ currData }) => {
 	const sendMessage = (e) => {
 		e.preventDefault();
 		console.log(input);
-		// setInput(e.target.value);
+
 		const newData = {
 			input: input,
 			image: image,
@@ -37,7 +37,6 @@ const Chat = ({ currData }) => {
 	};
 
 	var today = new Date().toLocaleString();
-	// var time = today.getHours() + ":" + today.getMinutes();
 
 	return (
 		<>
