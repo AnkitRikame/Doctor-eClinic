@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Doctor-eClinic/static/css/main.c9dd490c.chunk.css",
-    "main.js": "/Doctor-eClinic/static/js/main.ed6ffcce.chunk.js",
-    "main.js.map": "/Doctor-eClinic/static/js/main.ed6ffcce.chunk.js.map",
+    "main.css": "/Doctor-eClinic/static/css/main.af7488e4.chunk.css",
+    "main.js": "/Doctor-eClinic/static/js/main.3677a6ff.chunk.js",
+    "main.js.map": "/Doctor-eClinic/static/js/main.3677a6ff.chunk.js.map",
     "runtime-main.js": "/Doctor-eClinic/static/js/runtime-main.53a6445f.js",
     "runtime-main.js.map": "/Doctor-eClinic/static/js/runtime-main.53a6445f.js.map",
     "static/css/2.7cef8b32.chunk.css": "/Doctor-eClinic/static/css/2.7cef8b32.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.fe237ed9.chunk.js.map": "/Doctor-eClinic/static/js/2.fe237ed9.chunk.js.map",
     "index.html": "/Doctor-eClinic/index.html",
     "static/css/2.7cef8b32.chunk.css.map": "/Doctor-eClinic/static/css/2.7cef8b32.chunk.css.map",
-    "static/css/main.c9dd490c.chunk.css.map": "/Doctor-eClinic/static/css/main.c9dd490c.chunk.css.map",
+    "static/css/main.af7488e4.chunk.css.map": "/Doctor-eClinic/static/css/main.af7488e4.chunk.css.map",
     "static/js/2.fe237ed9.chunk.js.LICENSE.txt": "/Doctor-eClinic/static/js/2.fe237ed9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.53a6445f.js",
     "static/css/2.7cef8b32.chunk.css",
     "static/js/2.fe237ed9.chunk.js",
-    "static/css/main.c9dd490c.chunk.css",
-    "static/js/main.ed6ffcce.chunk.js"
+    "static/css/main.af7488e4.chunk.css",
+    "static/js/main.3677a6ff.chunk.js"
   ]
 }
