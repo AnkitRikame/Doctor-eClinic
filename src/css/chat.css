@@ -1,0 +1,75 @@
+.chatcontainer {
+	height: 100vh;
+	display: flex;
+	flex: 1;
+}
+
+.chatcontainer__div {
+	position: relative;
+	flex: 1;
+}
+
+.chatcontainer__userdata {
+	padding: 5px 20px;
+	box-shadow: 1px 1px 1px 1px;
+}
+
+.chatcontainer__userbody {
+	/* position: absolute; */
+	right: 0;
+	top: 10;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 10px;
+	margin: 10px 20px;
+	background-color: #dcf8c6;
+	/* background-color: rgb(214, 209, 209); */
+}
+
+.chatcontainer__userbody p {
+	margin-bottom: 0rem !important;
+	position: relative;
+	/* 
+	margin-bottom: 0rem !important; */
+}
+@media only screen and (max-width: 720px) {
+	.chatcontainer__userbody {
+		/* margin: auto; */
+	}
+}
+
+.chatcontainer__usermessage {
+	/* background-color: rgb(204, 201, 201); */
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000 !important;
+	text-align: center;
+	width: 75%;
+}
+
+.message_field {
+	width: 60%;
+	border-radius: 35px;
+	margin-bottom: 12px;
+	outline: 0;
+	padding: 0.5em 1em;
+}
+
+.sendIcon {
+	background-color: #fff;
+	/* margin-left: 15px; */
+	margin-bottom: 15px;
+}
+
+.sendFile {
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+input::placeholder {
+	color: #000;
+}

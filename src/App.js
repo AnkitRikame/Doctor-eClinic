@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import LeftSidebar from "./components/LeftSidebar";
+import Navbar from "./components/Navbar";
+// import Chat from "./components/Chat";
+// import Todo from "./components/Todo";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import "./css/chat.css";
+import "./index.css";
+import "./App.css";
+
+const App = () => {
+	return (
+		<div className="app">
+			<div className="app__body">
+				{/* <Todo /> */}
+				<Navbar />
+				<LeftSidebar />
+				{/* <Chat /> */}
+			</div>
+		</div>
+	);
+};
 
 export default App;
