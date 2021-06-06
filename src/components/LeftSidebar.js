@@ -22,6 +22,7 @@ const LoginForm = ({ onSubmit, currData, setCurrData, error }) => {
 					name="name"
 					value={currData.name}
 					onChange={handleChange}
+					autocomplete="off"
 				/>
 				{error.name !== "" && (
 					<Form.Text className="text-muted">{error.name}</Form.Text>
@@ -36,6 +37,7 @@ const LoginForm = ({ onSubmit, currData, setCurrData, error }) => {
 					name="message"
 					value={currData.message}
 					onChange={handleChange}
+					autocomplete="off"
 				/>
 				{error.message !== "" && (
 					<Form.Text className="text-muted">{error.message}</Form.Text>

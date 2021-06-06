@@ -69,6 +69,7 @@ const Chat = ({ currData }) => {
 								onChange={(e) => setInput(e.target.value)}
 								placeholder="Type a mesage"
 								className="message_field"
+								autocomplete="off"
 							/>
 							<input
 								value={image}

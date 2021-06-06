@@ -22,12 +22,6 @@ button:not(:disabled) {
 .leftUseList {
 	display: flex;
 	margin-top: 2px;
-	/* border: 5px solid rgb(115, 255, 0); */
-	/* flex: 0.25; */
-	/* height: 100vh; */
-	/* z-index: 99; */
-	/* max-width: 370px;
-	width: 360px; */
 }
 
 .leftUseList_sidebar {
@@ -41,6 +35,12 @@ button:not(:disabled) {
 @media only screen and (max-width: 720px) {
 	.leftUseList {
 		width: 200px;
+	}
+	.leftUseList__usersname h5 {
+		font-size: 1em;
+	}
+	.leftUseList__usersname p {
+		font-size: 0.9em;
 	}
 }
 
@@ -56,7 +56,7 @@ button:not(:disabled) {
 	border-radius: 40px;
 }
 .leftUseList__usersname {
-	margin-left: 40px;
+	margin-left: 25px;
 	width: 100%;
 }
 
