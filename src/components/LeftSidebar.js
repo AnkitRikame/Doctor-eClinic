@@ -116,7 +116,11 @@ export default function ModelSubmitForm() {
 						// return <h1>{`${currElem.name}` + " " + `${currElem.message}`}</h1>;
 						return (
 							<div className="leftUseList__users" key={ind}>
-								<img src="../images/profile.jpg" width="60px" alt="" />
+								<img
+									src="https://www.seekpng.com/png/full/23-236651_doctors-and-nurses-transparent-png-sticker-transparent-background.png"
+									width="60px"
+									alt=""
+								/>
 								<div
 									className="leftUseList__usersname"
 									style={{ display: "flex;flex-direction:column" }}
