@@ -10,12 +10,12 @@
 }
 
 .navbar img {
-	width: 80px;
-	border-radius: 30px;
+	width: 75px;
+	border-radius: 35px;
 	object-fit: contain;
 }
 
 .navbar h1 {
 	font-family: "Roboto Slab", serif;
-	margin: 10px 35px;
+	margin: 10px 8px;
 }
