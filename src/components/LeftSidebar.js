@@ -89,7 +89,6 @@ export default function ModelSubmitForm() {
 	const onLoginFormSubmit = (e) => {
 		e.preventDefault();
 		if (validate(currData)) {
-			// console.log("currData", currData);
 			setAllData([...allData, currData]);
 			setCurrData(initialData);
 			handleClose();
